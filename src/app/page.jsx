@@ -1,34 +1,7 @@
 
-
-
 import SearchBar from "@/components/searchbar";
+import Ingredients from "@/components/ingredients";
 
-
-
-
-
-
-
-import { Rubik, Inter, Satisfy } from "@next/font/google";
-import Ingredient from "@/components/ingredient";
-
-
-
-
-// Testing font variables with Tailwind
-
-/* const rubik = Rubik({
-  variable: "--font-rubik",
-  display: "swap",
-});
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  display: "swap",
-}); */
-
-const rubik = Rubik({  subsets: ["latin"] });
-const inter = Inter({ subsets: ["latin"] });
 
 
 export default function Home() {
